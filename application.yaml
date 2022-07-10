@@ -8,7 +8,6 @@ spec:
   source:
     repoURL: https://github.com/Perpwave/fulfill-kub-conf.git
     targetRevision: HEAD
-    path: /
   
   destination:
     server: https://kubernetes.default.svc
