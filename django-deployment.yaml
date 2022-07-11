@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: fulfill-core
   labels:
     app: fulfill-core
+  name: fulfill-core
 spec:
   replicas: 1
   selector:
@@ -15,9 +15,9 @@ spec:
         app: fulfill-core
     spec:
       containers:
-        - image: rajkrishnanr/f1:0b030e56c4c08beb8e760d713832697c4adc0129
-          imagePullPolicy: Always
-          name: web
-          ports:
-            - containerPort: 8000
-              name: django-wsgi
+      - image: rajkrishnanr/f1:5d062b395c3bfe00234881715d97b3cde72ec056
+        imagePullPolicy: Always
+        name: web
+        ports:
+        - containerPort: 8000
+          name: django-wsgi
