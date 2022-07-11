@@ -5,7 +5,7 @@ metadata:
     app: fulfill-core
   name: fulfill-core
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: fulfill-core
@@ -15,7 +15,7 @@ spec:
         app: fulfill-core
     spec:
       containers:
-      - image: rajkrishnanr/f1:5d062b395c3bfe00234881715d97b3cde72ec056
+      - image: rajkrishnanr/f1:9e6be0086831ded483b704b4235a30118fe3b307
         imagePullPolicy: Always
         name: web
         ports:
