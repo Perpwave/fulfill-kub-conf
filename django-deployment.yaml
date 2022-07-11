@@ -5,7 +5,7 @@ metadata:
     app: fulfill-core
   name: fulfill-core
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: fulfill-core
