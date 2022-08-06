@@ -15,7 +15,7 @@ spec:
         app: fulfill-core
     spec:
       containers:
-      - image: rajkrishnanr/f1:9e6be0086831ded483b704b4235a30118fe3b307
+      - image: rajkrishnanr/f1:2a1598d8c54ec7838fbfdbb17d16c31e3d8727fe
         imagePullPolicy: Always
         name: web
         ports:
